@@ -1,0 +1,63 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.grey-block {
+    background-color: #6d6d6d;
+    width: 100%;
+    height: 100px;
+}
+
+.grey-block {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .grey-block img {
+    display: block;
+  }
+  
+  .grey-block .column-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+.singup-title{
+    height: 50px;
+    background-color: white;
+    color: #6d6d6d;
+    padding-left: 120px;
+    padding-top: 20px;
+    margin-bottom: 0%;
+    font-size: 25px;
+}
+
+.singup-form{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+
+  .singup-form {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+  }
+  
+
+  .form-wrapper div {
+    flex: 1 1 calc(50% - 10px);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-wrapper div.full-width {
+    flex: 1 1 100%;
+  }
